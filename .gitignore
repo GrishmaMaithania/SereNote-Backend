@@ -1,0 +1,50 @@
+# Python/Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+db.sqlite3
+
+# Django stuff:
+*.mo
+*.pot
+*.pyc
+local_settings.py
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Node / JS stuff (if any in backend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Submodules / build artifacts
+
+.DS_Store
+*.swp
+.idea/
+
+# Ignore compiled static files
+static/
+
+# Ignore Render / Heroku
+*.bak
+
+# Ignore any accidental frontend folders in backend
+frontend/
+build/
+dist/
