@@ -30,7 +30,7 @@ ROOT_URLCONF = 'musicbackend.urls'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://localhost:3000",
-    "https://sereNote.onrender.com",  # allow frontend later when deployed
+    "https://serenote.netlify.app",  # allow frontend later when deployed
 ]
 
 CSRF_TRUSTED_ORIGINS = [
